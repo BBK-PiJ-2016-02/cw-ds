@@ -5,6 +5,7 @@ public class ArrayListTest {
         System.out.println("arrayList1.size() should return 0: " + arrayList1.size());
         System.out.println("arrayList1.get(1).hasError() should return true: " + arrayList1.get(1).hasError());
         System.out.println("arrayList1.get(1).getError() should return ErrorMessage.EMPTY_STRUCTURE: " + arrayList1.get(1).getError());
+        System.out.println("arrayList1.isEmpty() should return true: " + arrayList1.isEmpty());
 
         ArrayList arrayList2 = new ArrayList();
         arrayList2.add("Jack");
@@ -12,6 +13,7 @@ public class ArrayListTest {
         System.out.println("arrayList2.size() should return 2: " + arrayList2.size());
         System.out.println("arrayList2.get(1).hasError() should return false: " + arrayList2.get(1).hasError());
         System.out.println("arrayList2.get(1).getReturnValue() should return \"Jill\": " + arrayList2.get(1).getReturnValue());
+        System.out.println("arrayList2.isEmpty() should return false: " + arrayList2.isEmpty());
         arrayList2.remove(0);
         System.out.println("arrayList2.size() should return 1: " + arrayList2.size());
         System.out.println("arrayList2.get(1).hasError() should return true: " + arrayList2.get(1).hasError());

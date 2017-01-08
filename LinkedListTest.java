@@ -5,6 +5,7 @@ public class LinkedListTest {
         System.out.println("linkedList1.size() should return 0: " + linkedList1.size());
         System.out.println("linkedList1.get(1).hasError() should return true: " + linkedList1.get(1).hasError());
         System.out.println("linkedList1.get(1).getError() should return ErrorMessage.EMPTY_STRUCTURE: " + linkedList1.get(1).getError());
+        System.out.println("linkedList1.isEmpty() should return true: " + linkedList1.isEmpty());
 
         LinkedList linkedList2 = new LinkedList();
         linkedList2.add("Jack");
@@ -12,6 +13,7 @@ public class LinkedListTest {
         System.out.println("linkedList2.size() should return 2: " + linkedList2.size());
         System.out.println("linkedList2.get(1).hasError() should return false: " + linkedList2.get(1).hasError());
         System.out.println("linkedList2.get(1).getReturnValue() should return \"Jill\": " + linkedList2.get(1).getReturnValue());
+        System.out.println("linkedList2.isEmpty() should return false: " + linkedList2.isEmpty());
         linkedList2.remove(0);
         System.out.println("linkedList2.size() should return 1: " + linkedList2.size());
         System.out.println("linkedList2.get(1).hasError() should return true: " + linkedList2.get(1).hasError());

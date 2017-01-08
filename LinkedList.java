@@ -4,7 +4,7 @@ public class LinkedList implements List {
 	private int count = 0;
 
 	public boolean isEmpty() {
-		return false;
+		return size() == 0;
 	}
 
 	public int size() {
