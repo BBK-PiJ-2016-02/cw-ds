@@ -1,4 +1,17 @@
 Please see the general comments, some of which are applicable to your submission.
 The output of the various checking tools should be paid attention to although checkstyle is a little "aggressive".
 
-...
+Going forward make appropriate use of packages for the specifications, implementations,
+and tests.
+
+Good set of tests. Obviously make use of unit testing going forward.
+
+If the interfaces provide javadoc then you should reference them in the implementations
+using something like "@see". Also, you should provide internal comments (where
+appropriate) to assist the person reading you code.
+
+SampleableList - try and avoid "magic numbers" by the use of appropriate constants.
+
+ize(); i += 2) {
+
+A good attempt.
